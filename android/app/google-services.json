@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "418008245290",
+    "project_id": "eventhub-27aac",
+    "storage_bucket": "eventhub-27aac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418008245290:android:7559bd422ca831e81d0f53",
+        "android_client_info": {
+          "package_name": "com.example.eventhub_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClwMu1YW84g7Ds7oGch4nTWiBJdNmTqMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
