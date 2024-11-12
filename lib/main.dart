@@ -21,20 +21,20 @@ void main() async {
     if (kIsWeb) {
       await Firebase.initializeApp(
           options: const FirebaseOptions(
-              apiKey: "AIzaSyCSTGhU2UnbrLDIu7-imPS9yI1IboB7G1w",
-              appId: "1:418008245290:web:bac476d928c03aa91d0f53",
-              messagingSenderId: "418008245290",
-              projectId: "eventhub-27aac",
-              storageBucket: "eventhub-27aac.appspot.com",
-              authDomain: "eventhub-27aac.firebaseapp.com"));
+              apiKey: "enter api key",
+              appId: "api id",
+              messagingSenderId: "messagingid",
+              projectId: "enter projectid",
+              storageBucket: "enter storageBucket id",
+              authDomain: "enter id here"));
     } else {
       await Firebase.initializeApp(
           options: const FirebaseOptions(
-              apiKey: "AIzaSyClwMu1YW84g7Ds7oGch4nTWiBJdNmTqMI",
-              appId: "1:418008245290:android:7559bd422ca831e81d0f53",
-              messagingSenderId: '418008245290',
-              projectId: "eventhub-27aac",
-              storageBucket: 'eventhub-27aac.appspot.com'));
+              apiKey: "mobile apikey id",
+              appId: "id",
+              messagingSenderId: 'id',
+              projectId: "enter id",
+              storageBucket: 'enter id'));
     }
   } catch (e) {
     print('Error initializing Firebase: $e');
